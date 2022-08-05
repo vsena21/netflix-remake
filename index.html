@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/icone.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/login.css" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <main>
+      <img
+        src="assets/img/logo.svg"
+        alt="logo netflix"
+        class="logo"
+      />
+
+      <section>
+        <h2 class="form__titulo">Entrar</h2>
+        <form class="form__login">
+          <input
+            type="email"
+            name="txtLogin"
+            id="txtLogin"
+            placeholder="E-mail"
+            maxlength="40"
+          />
+          <input
+            type="password"
+            name="txtSenha"
+            id="txtSenha"
+            placeholder="Senha"
+            maxlength="40"
+          />
+
+          <span class="erro"></span>
+
+          <button type="submit" class="form__botao">Entrar</button>
+          <div class="form__info">
+            <div>
+              <input type="checkbox" name="chkLembrar" id="chkLembrar" />
+              <label for="chkLembrar">Lembre-se de mim</label>
+            </div>
+            <a href="#">Precisa de ajuda?</a>
+          </div>
+          <span class="form__novo"
+            >Novo por aqui?
+            <a href="#" class="form__assine">Assine agora</a>.</span
+          >
+        </form>
+      </section>
+    </main>
+
+    <script src="assets/js/login.js"></script>
+  </body>
+</html>
